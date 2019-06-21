@@ -1,6 +1,6 @@
 {
   "name": "egg-easy-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个egg的代理插件，适配midwayjs，基于egg-proxy",
   "eggPlugin": {
     "name": "easyProxy"
