@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-easy-proxy.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-easy-proxy
-[travis-image]: https://img.shields.io/travis/eggjs/egg-easy-proxy.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-easy-proxy
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-easy-proxy.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-easy-proxy?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-easy-proxy.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-easy-proxy
+[travis-image]: https://img.shields.io/travis/tingge/egg-easy-proxy.svg?style=flat-square
+[travis-url]: https://travis-ci.org/tingge/egg-easy-proxy
+[codecov-image]: https://img.shields.io/codecov/c/github/tingge/egg-easy-proxy.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/tingge/egg-easy-proxy?branch=master
+[david-image]: https://img.shields.io/david/tingge/egg-easy-proxy.svg?style=flat-square
+[david-url]: https://david-dm.org/tingge/egg-easy-proxy
 [snyk-image]: https://snyk.io/test/npm/egg-easy-proxy/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-easy-proxy
 [download-image]: https://img.shields.io/npm/dm/egg-easy-proxy.svg?style=flat-square
@@ -64,7 +64,7 @@ $ npm run test
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/TingGe/egg-easy-proxy/issues).
 
 ## License
 
