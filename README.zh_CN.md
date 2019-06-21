@@ -20,27 +20,30 @@
 [download-image]: https://img.shields.io/npm/dm/egg-easy-proxy.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-easy-proxy
 
-a plugin for [egg.js](https://eggjs.org/) and [midway.js](https://midwayjs.org/), based on [egg-proxy](https://github.com/xyeric/egg-proxy), [koa-proxy](https://github.com/edorivai/koa-proxy).
+一个egg的代理插件，适配midwayjs，基于 egg-proxy。
 
-## Install
+## 依赖说明
 
-```bash
-$ npm i egg-easy-proxy --save
-```
+### 依赖的 egg 版本
 
-## Usage
+egg-easy-proxy 版本 | egg 2.x 
+--- | ---
+1.x | 😁
+0.x | ❌
+
+## 开启插件
 
 ```js
-// {app_root}/config/plugin.js
+// config/plugin.js
 exports.easyProxy = {
   enable: true,
   package: 'egg-easy-proxy',
 };
 ```
 
-## Configuration
+## 使用场景
 
-```js
+```javascript
 // {app_root}/config/config.default.js
 exports.easyProxy = [
   {
@@ -54,17 +57,19 @@ exports.easyProxy = [
 ];
 ```
 
-see [config/config.default.js](config/config.default.js) for more detail.
+## 详细配置
 
-## Example
+请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
+
+## 单元测试
 
 ```bash
 $ npm run test
 ```
 
-## Questions & Suggestions
+## 提问交流
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
 
 ## License
 
