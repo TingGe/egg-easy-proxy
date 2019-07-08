@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "koa-proxy": "^1.0.0-alpha.2",
-    "snyk": "^1.189.0"
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "autod": "^3.1.0",

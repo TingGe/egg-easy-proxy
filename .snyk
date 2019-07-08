@@ -6,3 +6,25 @@ patch:
   SNYK-JS-LODASH-450202:
     - koa-proxy > request-promise-native > request-promise-core > lodash:
         patched: '2019-07-04T07:31:37.402Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-08T23:32:50.710Z'
