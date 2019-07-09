@@ -24,10 +24,11 @@ describe('test/easy-proxy.test.js', () => {
   });
 
   // 请求代理地址
-  it('GET /test1, should return 500', () => {
+  it('GET /proxy, should return 500', () => {
     return app
       .httpRequest()
-      .get('/test1')
-      .expect(500);
+      .get('/proxy')
+      .expect(500)
+      .expect({});
   });
 });

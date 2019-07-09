@@ -1,18 +1,20 @@
 {
   "name": "egg-easy-proxy",
-  "version": "1.0.1",
-  "description": "一个egg的代理插件，适配midwayjs，基于egg-proxy",
+  "version": "1.0.2",
+  "description": "a plugin for egg.js and midway.js, based on egg-proxy, koa-proxy",
   "eggPlugin": {
     "name": "easyProxy"
   },
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "egg-proxy",
+    "egg-easy-proxy",
+    "easyProxy"
   ],
   "dependencies": {
-    "koa-proxy": "^1.0.0-alpha.2",
-    "snyk": "^1.192.4"
+    "koa-proxy": "^1.0.0-alpha.2"
   },
   "devDependencies": {
     "autod": "^3.1.0",
@@ -21,9 +23,10 @@
     "egg-bin": "^4.13.0",
     "egg-ci": "^1.12.0",
     "egg-mock": "^3.23.1",
-    "egg-ts-helper": "^1.25.4",
-    "eslint": "^5.16.0",
-    "eslint-config-egg": "^7.4.1"
+    "egg-ts-helper": "^1.25.5",
+    "eslint": "^6.0.1",
+    "eslint-config-egg": "^7.4.1",
+    "power-assert": "^1.6.1"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -36,9 +39,8 @@
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod",
-    "ts": "ets",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "ets": "ets",
+    "clean": "ets clean"
   },
   "files": [
     "app",
@@ -54,10 +56,9 @@
     "url": "git+https://github.com/TingGe/egg-easy-proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/TingGe/egg-easy-proxy/issues"
   },
   "homepage": "https://github.com/TingGe/egg-easy-proxy#readme",
   "author": "TingGe<505253293@163.com>",
-  "license": "MIT",
-  "snyk": true
+  "license": "MIT"
 }

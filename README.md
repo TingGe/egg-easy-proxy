@@ -44,7 +44,7 @@ exports.easyProxy = {
 // {app_root}/config/config.default.js
 exports.easyProxy = [
   {
-    host: 'http://127.0.0.1:11111',
+    host: 'http://127.0.0.1:1111',
     match: /^\/test1/,
   },
   // {
