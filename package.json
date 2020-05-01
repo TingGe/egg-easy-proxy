@@ -14,7 +14,8 @@
     "easyProxy"
   ],
   "dependencies": {
-    "koa-proxy": "^1.0.0-alpha.2"
+    "koa-proxy": "^1.0.0-alpha.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "autod": "^3.1.0",
@@ -40,7 +41,9 @@
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod",
     "ets": "ets",
-    "clean": "ets clean"
+    "clean": "ets clean",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "files": [
     "app",
@@ -60,5 +63,6 @@
   },
   "homepage": "https://github.com/TingGe/egg-easy-proxy#readme",
   "author": "TingGe<505253293@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
